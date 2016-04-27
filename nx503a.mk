@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+    
+    # Compatibility with older blobs
+PRODUCT_PACKAGES += \
+    libstlport
 
 # Power
 PRODUCT_PACKAGES += \
